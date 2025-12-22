@@ -1,0 +1,4 @@
+[submodule "classifier"]
+	path = classifier
+	url = https://github.com/RyanStarFox/torchsketch
+	branch = master
