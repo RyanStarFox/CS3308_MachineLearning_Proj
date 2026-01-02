@@ -15,7 +15,7 @@ from PIL import Image
 
 import model as sketch_rnn_model
 from sketch_pix2seq_train import reset_graph, load_checkpoint
-from sketch_pix2seq_sampling import encode, load_env_compatible, build_category_index, draw_strokes
+from sketch_pix2seq_sampling import encode, load_env_compatible, build_category_index
 
 
 def load_env_and_model(data_dir, model_dir):
