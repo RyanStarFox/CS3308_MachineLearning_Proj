@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,cat_test_2014_z.npy,0.134191
+2,cat_test_1093_z.npy,0.023078
+3,cat_test_1007_z.npy,-0.027337
+4,cat_test_1904_z.npy,-0.045352
+5,cat_test_1411_z.npy,-0.071803

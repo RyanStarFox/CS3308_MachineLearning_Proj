@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,clock_test_1734_z.npy,0.167229
+2,clock_test_1660_z.npy,0.032268
+3,clock_test_298_z.npy,-0.024009
+4,clock_test_760_z.npy,-0.048505
+5,clock_test_1813_z.npy,-0.155500

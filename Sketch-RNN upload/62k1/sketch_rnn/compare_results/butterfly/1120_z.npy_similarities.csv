@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,butterfly_test_1120_z.npy,0.064363
+2,butterfly_test_761_z.npy,0.006937
+3,butterfly_test_1515_z.npy,-0.004003
+4,butterfly_test_1379_z.npy,-0.048519
+5,butterfly_test_1824_z.npy,-0.068768

@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,airplane_test_2401_z.npy,0.187080
+2,airplane_test_1372_z.npy,0.076734
+3,airplane_test_1965_z.npy,0.037961
+4,airplane_test_2025_z.npy,0.037950
+5,airplane_test_422_z.npy,-0.071182

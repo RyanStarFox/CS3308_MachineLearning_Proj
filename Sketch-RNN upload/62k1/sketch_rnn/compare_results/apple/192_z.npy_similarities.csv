@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,apple_test_192_z.npy,0.119861
+2,apple_test_2025_z.npy,0.088298
+3,apple_test_2255_z.npy,0.042067
+4,apple_test_309_z.npy,0.034760
+5,apple_test_1589_z.npy,-0.003994
