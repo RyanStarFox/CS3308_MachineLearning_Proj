@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,bus_test_1411_z.npy,0.098420
+2,bus_test_1103_z.npy,0.073361
+3,bus_test_1092_z.npy,0.058550
+4,bus_test_1904_z.npy,0.020061
+5,bus_test_2014_z.npy,-0.055356

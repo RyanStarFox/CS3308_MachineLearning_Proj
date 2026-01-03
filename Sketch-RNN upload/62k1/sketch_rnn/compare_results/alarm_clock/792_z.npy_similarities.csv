@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,alarm_clock_test_1773_z.npy,0.086587
+2,alarm_clock_test_1985_z.npy,0.062640
+3,alarm_clock_test_792_z.npy,-0.032245
+4,alarm_clock_test_1263_z.npy,-0.152200
+5,alarm_clock_test_998_z.npy,-0.186796

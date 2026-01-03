@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="540" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540">
+  <style>
+    .box { fill:#f7f9fc; stroke:#2b6cb0; stroke-width:2; rx:8; }
+    .small { font: 12px sans-serif; fill:#1a202c; }
+    .title { font: 14px sans-serif; font-weight:600; fill:#153e75; }
+    .arrow { stroke:#2b6cb0; stroke-width:2; fill:none; marker-end:url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2b6cb0" />
+    </marker>
+  </defs>
+
+  <!-- Data -->
+  <rect x="40" y="40" width="180" height="70" class="box"/>
+  <text x="130" y="70" text-anchor="middle" class="title">数据 (Dataset)</text>
+  <text x="130" y="90" text-anchor="middle" class="small">TFRecords / JSON / strokes</text>
+
+  <!-- Input pipeline -->
+  <rect x="260" y="40" width="180" height="70" class="box"/>
+  <text x="350" y="70" text-anchor="middle" class="title">输入管线</text>
+  <text x="350" y="90" text-anchor="middle" class="small">shuffle → batch → preprocess</text>
+
+  <!-- Model -->
+  <rect x="480" y="30" width="220" height="90" class="box"/>
+  <text x="590" y="60" text-anchor="middle" class="title">模型 (Sketch-RNN)</text>
+  <text x="590" y="80" text-anchor="middle" class="small">RNN encoder → latent → RNN decoder</text>
+
+  <!-- Loss / Metrics -->
+  <rect x="740" y="40" width="200" height="60" class="box"/>
+  <text x="840" y="65" text-anchor="middle" class="title">Loss & 指标</text>
+  <text x="840" y="85" text-anchor="middle" class="small">reconstruction + KL, accuracy etc.</text>
+
+  <!-- Arrows top row -->
+  <path d="M220 75 L260 75" class="arrow" />
+  <path d="M440 75 L480 75" class="arrow" />
+  <path d="M700 75 L740 75" class="arrow" />
+
+  <!-- Training loop box -->
+  <rect x="260" y="160" width="460" height="120" class="box"/>
+  <text x="490" y="180" text-anchor="middle" class="title">训练循环 (Train Loop)</text>
+  <text x="490" y="200" text-anchor="middle" class="small">前向 -> 计算 Loss -> 反向 -> 更新参数</text>
+
+  <!-- Optimizer -->
+  <rect x="40" y="220" width="180" height="70" class="box"/>
+  <text x="130" y="255" text-anchor="middle" class="title">优化器</text>
+  <text x="130" y="275" text-anchor="middle" class="small">Adam / SGD</text>
+
+  <!-- Checkpoint -->
+  <rect x="760" y="220" width="180" height="70" class="box"/>
+  <text x="850" y="255" text-anchor="middle" class="title">Checkpoint</text>
+  <text x="850" y="275" text-anchor="middle" class="small">保存模型权重</text>
+
+  <!-- TensorBoard -->
+  <rect x="40" y="320" width="220" height="70" class="box"/>
+  <text x="150" y="355" text-anchor="middle" class="title">TensorBoard</text>
+  <text x="150" y="375" text-anchor="middle" class="small">scalars, histograms, images</text>
+
+  <!-- Samples / Generation -->
+  <rect x="740" y="320" width="200" height="70" class="box"/>
+  <text x="840" y="355" text-anchor="middle" class="title">采样 / 生成</text>
+  <text x="840" y="375" text-anchor="middle" class="small">从 latent 生成示例</text>
+
+  <!-- Arrows from train loop to optimizer, checkpoint, tensorboard, generation -->
+  <path d="M490 200 L490 230" class="arrow" />
+  <path d="M490 280 L130 320" class="arrow" />
+  <path d="M720 220 L760 255" class="arrow" />
+  <path d="M720 220 L840 320" class="arrow" />
+
+  <!-- Arrows: model -> train loop and optimizer -> train loop -->
+  <path d="M590 120 L590 160" class="arrow" />
+  <path d="M220 255 L260 240" class="arrow" />
+
+  <!-- Notes -->
+  <text x="60" y="510" class="small">说明：此图示意一般 TensorFlow 训练流程，具体实现细节（如梯度裁剪、学习率调度、分布式训练等）可在训练循环中扩展。</text>
+
+</svg>

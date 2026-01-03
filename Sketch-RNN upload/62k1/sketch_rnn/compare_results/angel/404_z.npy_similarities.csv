@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,angel_test_422_z.npy,0.010603
+2,angel_test_1372_z.npy,-0.046379
+3,angel_test_404_z.npy,-0.129113
+4,angel_test_2024_z.npy,-0.143849
+5,angel_test_2400_z.npy,-0.157957

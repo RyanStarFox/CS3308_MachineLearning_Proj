@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,cake_test_1460_z.npy,0.100161
+2,cake_test_1907_z.npy,0.032406
+3,cake_test_2397_z.npy,-0.052237
+4,cake_test_728_z.npy,-0.138052
+5,cake_test_444_z.npy,-0.145114

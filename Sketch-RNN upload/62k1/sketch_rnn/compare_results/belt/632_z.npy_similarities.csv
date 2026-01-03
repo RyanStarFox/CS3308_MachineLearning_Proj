@@ -1,0 +1,6 @@
+rank,candidate_relpath,similarity
+1,belt_test_2345_z.npy,0.153999
+2,belt_test_2365_z.npy,0.031205
+3,belt_test_15_z.npy,0.007676
+4,belt_test_632_z.npy,-0.148217
+5,belt_test_230_z.npy,-0.267129
